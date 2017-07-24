@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Scenic Trails</string>
+    <string name="start_new_run">Start a new run</string>
+    <string name="view_previous_runs">View previous runs</string>
+    <string name="run_history">Run History</string>
+    <string name="nearby_trails">Nearby Trails</string>
+    <string name="create_a_new_trail">Create A New Trail</string>
+    <string name="sort_by">Sort by:</string>
+    <array name="sort_by_options">
+        <item>Sort By...</item>
+        <item>Distance (Low to high)</item>
+        <item>Distance (High to low)</item>
+        <item>Near Me</item>
+    </array>
+    <string name="enter_trail_name">Trail Name</string>
+    <string name="enter_trail_description">Trail Description</string>
+    <string name="create_your_trail">Create Your Trail</string>
+    <string name="add_a_picture">Add a Picture</string>
+    <string name="submit_new_trail">Submit Trail</string>
+
+    <string name="review_trail">Review This Trail!</string>
+    <string name="what_think_you">What did you Think?</string>
+    <string name="submit">Submit</string>
+
+    <string name="location_permission">Currently using your location.</string>
+    <string name="perm_denied">Permission was denied.</string>
+    <string name="finalize_run">Complete Run</string>
+    <string name="add_picture">Add a Picture</string>
+    <string name="begin_run">Begin Run</string>
+    <string name="add_review">Add a Review</string>
+    <string name="reviews">Reviews</string>
+    <string name="run_saved">Run Saved!</string>
+    <string name="cant_location">Can not obtain location. Security permissions denied.</string>
+    <string name="directions_activity_toast_message">Route is %1$f meters long.</string>
+    <string name="map_box_key">pk.eyJ1IjoicGllcnNjbSIsImEiOiJjajRpczV6YmEwMGJsMzNxaGJ6emJzNGN4In0.CrW8IUEhWGeK1GKXV06nkQ</string>
+</resources>

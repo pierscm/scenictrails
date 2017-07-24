@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.mobileapps.lewisu.cassiepierson.scenictrails.TrailViewActivity">
+
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/ales_krivec_2892"
+        android:id="@+id/main_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temp Trail Name"
+        android:layout_toRightOf="@id/main_image"
+        android:layout_toEndOf="@id/main_image"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:id="@+id/trailview_trailname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temporary Description. Blah Blah. Blah"
+        android:layout_toRightOf="@+id/main_image"
+        android:layout_toEndOf="@+id/main_image"
+        android:layout_below="@id/trailview_trailname"
+        android:padding="8dp"
+        android:id="@+id/trail_description_tv"/>
+
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:layout_below="@id/trail_description_tv"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/trail_view_avg_rating_bar"
+        android:isIndicator="true"
+
+        />
+
+
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_row"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/trail_view_avg_rating_bar">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_picture"
+        android:id="@+id/add_pic_button_trailview"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/begin_run"
+        android:id="@+id/begin_run_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_review"
+        android:id="@+id/add_review_button"
+        />
+
+    </android.support.v7.widget.ButtonBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reviews"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:layout_below="@id/button_row"
+        android:id="@+id/review_tv"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviews_line"
+        android:layout_below="@id/review_tv"
+        android:text="Temp String"/>
+
+</RelativeLayout>
